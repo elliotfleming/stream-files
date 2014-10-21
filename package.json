@@ -1,0 +1,45 @@
+{
+  "name": "stream-files",
+  "version": "0.0.1",
+  "description": "View relative source file paths in your streams.",
+  "keywords": [
+    "gulpplugin",
+    "stream-files",
+    "debug",
+    "files",
+    "stream",
+    "log",
+    "gulp"
+  ],
+  "main": "./index.js",
+  "author": {
+    "name": "Elliot Fleming",
+    "email": "elliotfleming@gmail.com",
+    "url": "https://github.com/elliotfleming"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elliotfleming/stream-files"
+  },
+  "bugs": {
+    "url": "https://github.com/elliotfleming/stream-files/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=0.10",
+    "npm": ">=1.4.3"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  },
+  "dependencies": {
+    "gulp-util": "latest",
+    "through2": "latest"
+  },
+  "devDependencies": {
+  }
+}
